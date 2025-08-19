@@ -1,0 +1,474 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(work\ table.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+.logo-img-top{
+    position: absolute;
+    width: 5rem;
+    margin: 17px;
+
+}
+.container ul{
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'vazirmatn' , sans-serif;
+    font-weight: bolder;
+    top: 3.3rem;
+    right: 8rem;
+}
+.login-enter{
+    cursor: pointer;
+    transition: 0.8s;
+}
+.login-enter:hover{
+    color: rgb(0, 140, 255);
+}
+.headerlistButton{
+    font-family: 'vazirmatn' , sans-serif;
+    font-size: 1.1rem;
+    background: none;
+    border: 0;
+    color: white;
+    font-weight: bolder;
+}
+.hoverButton{
+    position: relative;
+    display: inline-block;
+}
+.hoverDropdownList{
+    position: absolute;
+    background: white;
+    color: black;
+    z-index: 1;
+    padding: 10px;
+    width: 9rem;
+    display: none;
+}
+.hoverButton:hover .hoverDropdownList{
+    display: block;
+}
+.hoverDropdownListLink{
+    transition: 0.4s;
+}
+.hoverDropdownListLink:hover{
+    color: rgb(0, 140, 255);
+}
+
+.headerlist{
+    cursor: pointer;
+    transition: 0.7s;
+}
+.headerlist:hover{
+    border-top: 3px solid rgb(0, 140, 255);
+}
+ul {
+    list-style: none;
+    position: absolute;
+    display: flex;
+    gap: 2rem;
+}
+#h2{
+    color: white;
+    font-family: 'vazirmatn' , sans-serif;
+    top: 12rem;
+    position: relative;
+    width: 38rem;
+    display: flex;
+    margin: 20px auto;
+    font-weight: bolder;
+}
+.mainSearch{
+    font-size: xx-large;
+    font-family: 'vazirmatn' , sans-serif;
+    background: white;
+    padding: 15px;
+    border-radius: 50px;
+    width: 40rem;
+    border: 0;
+}
+#searchIcon{
+    color: rgb(0, 183, 255);
+    transition: 0.7s;
+    cursor: pointer;
+}
+.search{
+    background: white;
+    width: 43rem;
+    border-radius: 50px;
+    position: relative;
+    top: 15rem;
+    margin: 2px auto;
+    box-shadow: rgba(255, 255, 255, 0.267) 0 0 0px 15px;
+}
+#searchIcon:hover{
+    color: black;
+}
+.secondList{
+    position: relative;
+    display: flex;
+    top: 25rem;
+    font-size: 1.3rem;
+    padding: 27px;
+    background: white;
+    border-bottom: rgba(0, 0, 0, 0.39) solid 2px;
+    align-items: center;
+        font-family: 'vazirmatn' , sans-serif;
+}
+.secondListLiButton{
+    border: 0;
+    background: white;
+    cursor: pointer;
+    font-size: 1.3rem;
+    transition: 0.7s;
+        font-family: 'vazirmatn' , sans-serif;
+}
+.secondListLiButton:hover{
+    color: rgb(0, 183, 255);
+}
+.secondListLiLi{
+    cursor: pointer;
+    color: black;
+    transition: 0.4s;
+    background: white;
+}
+
+.secondListBox{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    background: white;
+    background-size: cover;
+    width: 15rem;
+    display: none;
+    right: -4rem;
+    top: 3.29rem;
+}
+#secondListBox{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+    background: white;
+    width: 9rem;
+    margin-right: 5rem;
+    box-shadow: grey 0 0 20px 5px;
+    text-align: right;
+    padding: 10px;
+}
+.show{
+    display: block;
+}
+.secondListLiLi:hover{
+    color: rgb(0, 183, 255);
+}
+.secondListLi{
+    color: black;
+    cursor: pointer;
+    transition: 0.7s;
+    margin-bottom: 5px;
+    background: white;
+    padding: 10px;
+}
+.secondListLi:hover{
+    color: rgb(0, 183, 255);
+}
+.slideAd{
+    position: relative;
+    width: 100rem;
+    top: 30rem;
+    margin: 10px auto;
+}
+.slide{
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+.slide.active{
+    opacity: 1;
+}
+
+.advertisement{
+    background: white;
+    background-size: cover;
+    top: 55rem;
+    position: relative;
+    padding-top: 10px;
+}
+.ad1{
+    width: 22%;
+    margin: 20px;
+    font-size: 1.5rem;
+    font-family: 'vazirmatn' , sans-serif;
+    border: 0;
+    border-radius: 4px;
+    margin-top: 40px;
+    box-shadow: grey 0 0 20px 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 1%;
+    border-radius: 10px;
+
+}
+#ad1-text{
+    color: black;
+    transition: 0.4s;
+}
+#ad1-text:hover{
+    color: rgb(0, 183, 255);
+}
+.ad1-writer{
+    color: grey;
+    font-family: 'vazirmatn' , sans-serif;
+    font-size: 1.2rem;
+    transition: 0.6s;
+}
+.ad1-writer:hover{
+    color: rgb(68, 110, 68);
+}
+.ad1-writer-div{
+    border-bottom: grey solid 2px;
+}
+#ad1-writer-icon{
+    color: grey;
+}
+.ad2{
+    width: 22%;
+    margin: 20px;
+    font-size: 1.5rem;
+    font-family: 'vazirmatn' , sans-serif;
+    border: 0;
+    border-radius: 4px;
+    margin-top: 40px;
+    box-shadow: grey 0 0 20px 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 25%;
+    border-radius: 10px;
+}
+#ad2-text{
+    color: black;
+    transition: 0.4s;
+}
+#ad2-text:hover{
+    color: rgb(0, 183, 255);
+}
+.ad2-writer{
+    color: grey;
+    font-family: 'vazirmatn' , sans-serif;
+    font-size: 1.2rem;
+    transition: 0.6s;
+}
+.ad2-writer:hover{
+    color: rgb(68, 110, 68);
+}
+.ad2-writer-div{
+    border-bottom: grey solid 2px;
+}
+#ad2-writer-icon{
+    color: grey;
+}
+.ad3{
+    width: 22%;
+    margin: 20px;
+    font-size: 1.5rem;
+    font-family: 'vazirmatn' , sans-serif;
+    border: 0;
+    border-radius: 4px;
+    margin-top: 40px;
+    box-shadow: grey 0 0 20px 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 49%;
+    border-radius: 10px;
+}
+#ad3-text{
+    color: black;
+    transition: 0.4s;
+}
+#ad3-text:hover{
+    color: rgb(0, 183, 255);
+}
+.ad3-writer{
+    color: grey;
+    font-family: 'vazirmatn' , sans-serif;
+    font-size: 1.2rem;
+    transition: 0.6s;
+}
+.ad3-writer:hover{
+    color: rgb(68, 110, 68);
+}
+.ad3-writer-div{
+    border-bottom: grey solid 2px;
+}
+#ad3-writer-icon{
+    color: grey;
+}
+.ad4{
+    width: 22%;
+    margin: 20px;
+    font-size: 1.5rem;
+    font-family: 'vazirmatn' , sans-serif;
+    border: 0;
+    border-radius: 4px;
+    margin-top: 40px;
+    box-shadow: grey 0 0 20px 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 74%;
+    border-radius: 10px;
+}
+#ad4-text{
+    color: black;
+    transition: 0.4s;
+}
+#ad4-text:hover{
+    color: rgb(0, 183, 255);
+}
+.ad4-writer{
+    color: grey;
+    font-family: 'vazirmatn' , sans-serif;
+    font-size: 1.2rem;
+    transition: 0.6s;
+}
+.ad4-writer:hover{
+    color: rgb(68, 110, 68);
+}
+.ad4-writer-div{
+    border-bottom: grey solid 2px;
+}
+#ad4-writer-icon{
+    color: grey;
+}
+
+.scrollAdvertisement{
+    position: relative;
+    top: 85rem;
+    border-top: 2px solid rgb(0, 183, 255);
+    margin: 50px;
+}
+#scrollAdvertisementHeader{
+    font-family: 'vazirmatn' , sans-serif;
+    font-size: 1.6rem;
+
+}
+
+.ad5{
+    width: 22%;
+    margin: 20px;
+    font-size: 1.5rem;
+    font-family: 'vazirmatn' , sans-serif;
+    border: 0;
+    border-radius: 4px;
+    margin-top: 40px;
+    box-shadow: grey 0 0 20px 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 74%;
+    border-radius: 10px;
+}
+#ad5-text{
+    color: black;
+    transition: 0.4s;
+}
+#ad5-text:hover{
+    color: rgb(0, 183, 255);
+}
+.ad5-writer{
+    color: grey;
+    font-family: 'vazirmatn' , sans-serif;
+    font-size: 1.2rem;
+    transition: 0.6s;
+}
+.ad5-writer:hover{
+    color: rgb(68, 110, 68);
+}
+.ad5-writer-div{
+    border-bottom: grey solid 2px;
+}
+#ad5-writer-icon{
+    color: grey;
+}
+
+.end{
+    background-image: url(wp7617053-simple-dark-blue-desktop-wallpapers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    top: 200rem;
+}
+.lastUl{
+    position: absolute;
+    top: 10rem;
+    display: flex;
+    right: 3rem;
+}
+.lastLi:hover{
+    color: rgb(0, 183, 255);
+}
+.lastLi{
+    list-style-type: disc;
+    color: white;
+    font-family: 'vazirmatn' , sans-serif;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.endInput>input{
+    position: relative;
+    top: 4rem;
+    margin: 10px auto;
+    right: 20%;
+    font-size: 1.5rem;
+    font-family: 'vazirmatn' , sans-serif;
+    padding: 1rem 1rem;
+    gap: 0;
+    border: 0;
+}
+.submitInput{
+    background: greenyellow;
+    border-radius: 4px 0px 0 4px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.submitInput:hover{
+    background: rgb(114, 172, 27);
+}
+.numberInput{
+    border-radius: 0 4px 4px 0;
+}
+
+.finish{
+    position: relative;
+    top: 200rem;
+    bottom: 0;
+    background: rgb(112, 105, 105);
+    color: black;
+    padding: 20px;
+    font-size: 1.3rem;
+    text-align: center;
+        font-family: 'vazirmatn' , sans-serif;
+}
+#last-toplearn{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    transition: 0.7s;
+}
+#last-toplearn:hover{
+    color: rgb(0, 183, 255);
+}
+input:focus {
+  outline: none; /* removes the blue/yellow focus border */
+  box-shadow: none; /* sometimes needed if the browser uses shadow */
+}
